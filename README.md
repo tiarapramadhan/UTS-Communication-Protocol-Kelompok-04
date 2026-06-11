@@ -105,7 +105,7 @@ Data yang dikirimkan menggunakan struktur JSON Object `{}` dengan tipe data seba
 ### Skrip Python Parser
 Skrip pada [parsing_script.py]("C:\Users\ACER\UTS_CP04\parsing_script.py") menggunakan library `requests` untuk HTTP GET request dan `pandas` untuk pemetaan ke bentuk tabel. Pengambilan data menggunakan fungsi `.get()` untuk menghindari *KeyError* apabila ada perubahan properti data dari server.
 
-Hasil parsing DataFrame disimpan secara otomatis ke berkas CSV di [parsed_result.csv]("C:\Users\ACER\UTS_CP04\parsed_result.csv") dengan format:
+Hasil parsing DataFrame disimpan secara otomatis ke berkas CSV di [parsed_result.csv]("C:\Users\ACER\UTS_CP04\output\parsed_result.csv") dengan format:
 
 ```csv
 id,name,value
