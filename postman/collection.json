@@ -12,7 +12,27 @@
       "name": "GET Product List",
       "request": {
         "method": "GET",
-        "header": []
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/products/?limit=5&skip=0",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "products",
+            ""
+          ],
+          "query": [
+            {
+              "key": "limit",
+              "value": "5"
+            },
+            {
+              "key": "skip",
+              "value": "0"
+            }
+          ]
+        }
       },
       "response": []
     },
@@ -53,7 +73,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "",
+          "raw": "{\n  \"title\": \"Eyeshadow Palette with Mirror\",\n  \"price\": 19.99\n}",
           "options": {
             "raw": {
               "language": "json"

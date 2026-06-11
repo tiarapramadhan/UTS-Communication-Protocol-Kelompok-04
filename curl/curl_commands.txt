@@ -1,0 +1,40 @@
+# Catatan Pengujian cURL - Kelompok 04
+# UTS Communication Protocol - Kelas Reguler Sains Data Semester 2
+
+# ==========================================
+# 1. GET Product List (Pengujian 1)
+# ==========================================
+# Deskripsi: Mengambil daftar produk massal dengan batasan (limit) 5 data untuk efisiensi bandwidth.
+curl -X GET "https://dummyjson.com/products/?limit=5&skip=0" \
+     -H "Accept: application/json"
+
+# ==========================================
+# 2. GET Product Detail (Pengujian 2)
+# ==========================================
+# Deskripsi: Mengambil informasi detail produk dengan ID spesifik (ID: 2).
+curl -X GET "https://dummyjson.com/products/2" \
+     -H "Accept: application/json"
+
+# ==========================================
+# 3. POST Create Product (Pengujian 3)
+# ==========================================
+# Deskripsi: Melakukan simulasi penambahan data produk baru ke server DummyJSON.
+curl -X POST "https://dummyjson.com/products/add" \
+     -H "Content-Type: application/json" \
+     -d "{\"title\": \"Eyeshadow Palette with Mirror\", \"price\": 19.99}"
+
+# ==========================================
+# 4. POST Login - GAGAL (Pengujian 4)
+# ==========================================
+# Deskripsi: Menguji gerbang otentikasi dengan body request kosong untuk validasi error handling.
+curl -X POST "https://dummyjson.com/auth/login" \
+     -H "Content-Type: application/json" \
+     -d "{}"
+
+# ==========================================
+# 5. POST Login - SUKSES (Pengujian 5)
+# ==========================================
+# Deskripsi: Menguji otentikasi dengan kredensial yang valid untuk mendapatkan Access Token.
+curl -X POST "https://dummyjson.com/auth/login" \
+     -H "Content-Type: application/json" \
+     -d "{\"username\": \"emilys\", \"password\": \"emilyspass\", \"expiresInMins\": 30}"

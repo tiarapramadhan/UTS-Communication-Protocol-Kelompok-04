@@ -1,0 +1,54 @@
+================================================================================
+DRAFT REFLEKSI INDIVIDU - ROLE 4 (REPORT, PPT, GITHUB STRUCTURE & BACKUP PRESENTER)
+Untuk: Tiara Putri Ramadhani (NIM: 25110500004)
+Mata Kuliah: Communication Protocol - Sains Data Reguler (Semester 2)
+================================================================================
+
+Bagian Reflection          Isi Refleksi
+-----------------          ------------
+Nama dan NIM               Tiara Putri Ramadhani (NIM: 25110500004)
+
+Kelompok dan Role          Kelompok 04 - Role 4: Report, PPT, GitHub Structure, dan Backup Presenter
+
+Kontribusi Pribadi         Saya bertanggung jawab penuh atas manajemen repositori proyek kelompok,
+                           mengompilasi dan memvalidasi seluruh evidence teknis (Postman collection,
+                           cURL commands, Wireshark packet capture, script python parsing, dan CSV output),
+                           menyusun dokumen Laporan Utama UTS (.pdf), merancang Slide Presentasi (.pptx),
+                           serta menyusun dokumentasi terintegrasi pada README.md repositori.
+
+Proses Pengerjaan          Proses dimulai dengan koordinasi kelompok untuk menentukan studi kasus (Case A:
+                           REST API JSON dengan target DummyJSON API). Setelah Fathur (Role 1) menguji API,
+                           Bevan (Role 2) menangkap paket jaringan, dan Alya (Role 3) membuat skrip parsing,
+                           saya bertugas mengumpulkan semua file tersebut. Saya menyusun struktur folder
+                           repositori sesuai standar yang diminta dosen, merapikan README.md dengan diagram
+                           arsitektur jaringan (Mermaid diagram), menyusun slide PPT kelompok, serta
+                           mengintegrasikan seluruh penjelasan teknis ke dalam Laporan PDF Kelompok.
+
+Kendala Teknis             Hambatan utama yang saya temui adalah masalah konsistensi dan integrasi file.
+                           Hasil packet capture awal dari Role 2 masih mengandung traffic background yang
+                           tidak relevan. Revisi terhadap capture tersebut berdampak berantai ke analisis
+                           data Role 3 dan script python parsing. Selain itu, terdapat penamaan file yang
+                           tidak seragam dari anggota tim sehingga menyulitkan proses kompilasi awal.
+
+Solusi yang Dilakukan      Saya mengoordinasikan revisi ulang packet capture kepada Role 2 dengan filter
+                           yang lebih ketat. Saya kemudian memastikan skrip parsing milik Role 3 disesuaikan
+                           agar sinkron dengan data capture terbaru. Terakhir, saya merapikan semua nama file
+                           agar mematuhi aturan penamaan (naming convention) UTS_CP_Reguler_Kelompok04_*.
+                           Semua link file di dalam README.md dan laporan juga divalidasi agar berfungsi dengan baik.
+
+Pembelajaran Utama         Melalui praktikum ini, saya memahami alur utuh pengujian komunikasi data dari level
+                           aplikasi (Postman/Python) hingga level transport (TCP/TLS) dan jaringan (IP/DNS).
+                           Saya belajar bahwa kolaborasi tim yang sukses membutuhkan koordinasi ketat pada
+                           setiap perubahan data. Manajemen repositori yang terstruktur dan dokumentasi yang
+                           jelas (README) sangat membantu mempermudah pihak lain memahami cara kerja sistem kami.
+
+Evaluasi Kontribusi        Secara keseluruhan, saya memberikan estimasi kontribusi pribadi sebesar 25%.
+                           Meskipun pekerjaan saya bersifat integratif dan dokumentatif, peran ini sangat
+                           krusial untuk menjamin kualitas akhir dan keselarasan evidence dari seluruh anggota
+                           kelompok sehingga dapat dipresentasikan dan dinilai dengan baik oleh dosen.
+
+================================================================================
+💡 Petunjuk: Tiara dapat memindahkan draf teks ini ke Microsoft Word atau Google Docs,
+   kemudian mengekspornya ke format PDF dengan nama file:
+   "UTS_CP_Reguler_Kelompok04_Reflection_Tiara.pdf" (atau timpa file reflection_tiara_putri_ramadhani.pdf).
+================================================================================
